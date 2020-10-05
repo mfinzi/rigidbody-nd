@@ -1,0 +1,4 @@
+name = "Physics"
+uuid = "bf66e8ba-cc3f-4221-9a9a-9acb168f2f20"
+authors = ["mfinzi <mfinzi@hmc.edu>"]
+version = "0.1.0"

@@ -3,6 +3,7 @@ using LinearAlgebra
 using FileIO
 using GeometryBasics
 
+
 @doc """ because julia defaults are dumb"""->
 function dropsum(tensor,dims)
     dropdims(sum(tensor,dims=dims),dims=(isa(dims,Integer) ? (dims,) : dims))
